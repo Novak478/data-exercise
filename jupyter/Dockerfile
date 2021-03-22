@@ -7,9 +7,10 @@ RUN sudo apt-get update -y
 RUN sudo apt-get install -y libpq-dev curl
 
 ENV PYTHONPATH "${PYTHONPATH}:/home/jovyan"
-
+ENV JUPYTER_ALLOW_INSECURE_WRITES=true
 USER jovyan
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+
 
 CMD ["sh","-c", "jupyter notebook", "-ContentManager.allow_hidden=true"]
