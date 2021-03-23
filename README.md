@@ -2,7 +2,9 @@
 
 1. Run `docker-compose up --build`
 2. Open the jupyter notebook `data-exercise`.
-3. Left click `Cell` and select `Run all`. 
+3. Adjust the variable `results_wanted` for the number of fake API calls to make. Default is 1000.
+4. Left click `Cell` and select `Run all`. 
+5. View data visualizations / statistics at bottom of notebook. 
 
 ## APIS USED!
 
@@ -26,3 +28,4 @@ I am a data engineer working for a local bank trying to assist service reps with
 - 3/21/21 11:20 PM - 12:00 AM EDT: Added code from flask with random user data api. Cleaned it up and expiremented with an idea of using cryptocurrency data, but ultimately decided not to pursue it. Total dev time: ~1 hr 10 min.
 - 3/22/21 5:00 PM - ~ 6:00 PM EDT: Added a few other API calls regarding quotes, a profanity API, and a text analysis. Total dev time: ~2 hrs 10 min.
 - 3/22/21 11:00 PM - 11:50 PM EDT: Finished all api calls / creation of final df. Got killed by a Spectrum outage in my area, so unable to continue further / push. Total dev time: ~ 3 hrs.
+- 3/23/21 11:30 AM - 12:30 PM EDT: Final touches with stats, data visualizations, and struggling with loading the dataframe into neo4j. Added some pseudocode to show what I would have done after resolving the error of loading. Total dev time: 4 hrs. FINAL COMMIT! 

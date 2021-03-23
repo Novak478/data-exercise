@@ -7,4 +7,7 @@ ADD --chown=neo4j:neo4j ${APOC_URI} plugins
 
 ENV NEO4J_AUTH=neo4j/test
 
+
+ENV NEO4J_dbms_connector_bolt_listen__address=0.0.0.0:7687
+
 CMD [ "neo4j" ]
