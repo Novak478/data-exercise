@@ -6,3 +6,6 @@ python-dotenv
 pyspark
 requests
 boto3
+neo4j
+vaderSentiment
+seaborn

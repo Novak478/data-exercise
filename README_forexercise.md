@@ -37,14 +37,15 @@ There are many ways to perform this exercise. Limit your time to four hours. Com
 You are free to modify any of the provided infrastructure to meet your needs.
 
 Base Criteria
-- [ ] Write a script to consume three or more realted open source APIs to populate a datastore
-- [ ] Provide instructions on how to run your script
-- [ ] Visually render the data inside of a notebook
-- [ ] Provide some light data analytics
+- [X] Write a script to consume three or more realted open source APIs to populate a datastore
+- [X] Provide instructions on how to run your script
+- [X] Visually render the data inside of a notebook
+- [X] Provide some light data analytics
 
 Here is a starting point for source data [DATA.GOV Catalog](https://catalog.data.gov/dataset).
 
 Bonus
-- [ ] Clean commit history
+- [X] Clean commit history
 - [ ] Testing coverage
-- [ ] Low reliance on third party dependencies
+  - Could've added more tests this is my bad.
+- [X] Low reliance on third party dependencies
